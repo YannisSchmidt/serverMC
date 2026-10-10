@@ -1,0 +1,11 @@
+{
+  "name": "Minecraft server",
+  "description": "A Minecraft server hosted at home. Join with the address below.",
+  "rules": [
+    "Be respectful to other players.",
+    "No griefing or stealing.",
+    "Have fun!"
+  ],
+  "discord": "",
+  "website": ""
+}

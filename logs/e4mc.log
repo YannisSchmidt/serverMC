@@ -1,0 +1,189 @@
+2026-10-10 16:48:16.017 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 16:48:16.021 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 16:48:17.697 [INFO ] [e4mc] Connected, domain: paralyses-scarf.uk.e4mc.link
+2026-10-10 16:48:17.698 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 16:48:17.698 [INFO ] [e4mc] e4mc public address: paralyses-scarf.uk.e4mc.link
+2026-10-10 16:50:08.701 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 16:50:08.702 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 16:50:10.337 [INFO ] [e4mc] Connected, domain: gigahertz-mollusk.uk.e4mc.link
+2026-10-10 16:50:10.338 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 16:50:10.338 [INFO ] [e4mc] e4mc public address: gigahertz-mollusk.uk.e4mc.link
+2026-10-10 16:52:29.493 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 16:52:29.494 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 16:52:29.549 [INFO ] [e4mc] Error: Invalid or corrupt jarfile C:\tmp\demo-mc\e4mcbiat.jar
+2026-10-10 16:52:29.552 [WARN ] [e4mc] e4mc relay client exited (code 1).
+2026-10-10 16:52:29.553 [WARN ] [e4mc] Restarting the e4mc relay in 2s (attempt 1/3)...
+2026-10-10 16:52:31.647 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 16:52:31.675 [INFO ] [e4mc] Error: Invalid or corrupt jarfile C:\tmp\demo-mc\e4mcbiat.jar
+2026-10-10 16:52:31.677 [WARN ] [e4mc] e4mc relay client exited (code 1).
+2026-10-10 16:52:31.677 [WARN ] [e4mc] Restarting the e4mc relay in 4s (attempt 2/3)...
+2026-10-10 16:52:35.772 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 16:52:35.801 [INFO ] [e4mc] Error: Invalid or corrupt jarfile C:\tmp\demo-mc\e4mcbiat.jar
+2026-10-10 16:52:35.803 [WARN ] [e4mc] e4mc relay client exited (code 1).
+2026-10-10 16:52:35.803 [WARN ] [e4mc] Restarting the e4mc relay in 6s (attempt 3/3)...
+2026-10-10 16:52:41.901 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 16:52:41.932 [INFO ] [e4mc] Error: Invalid or corrupt jarfile C:\tmp\demo-mc\e4mcbiat.jar
+2026-10-10 16:52:41.933 [WARN ] [e4mc] e4mc relay client exited (code 1).
+2026-10-10 16:52:41.934 [INFO ] [e4mc] e4mc state: connecting -> error (relay exited)
+2026-10-10 16:55:00.828 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 16:55:00.829 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 16:55:02.631 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 16:55:02.632 [INFO ] [e4mc] Stopping the e4mc relay client (panel shutdown)...
+2026-10-10 16:55:03.103 [WARN ] [e4mc] e4mc relay client exited (code 0).
+2026-10-10 16:55:03.104 [INFO ] [e4mc] e4mc state: connecting -> error (relay exited)
+2026-10-10 16:55:03.104 [INFO ] [e4mc] e4mc state: error -> stopped (minecraft stopped)
+2026-10-10 16:56:44.698 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 16:56:44.699 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 16:56:46.208 [INFO ] [e4mc] Connected, domain: purely-worry.uk.e4mc.link
+2026-10-10 16:56:46.209 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 16:56:46.209 [INFO ] [e4mc] e4mc public address: purely-worry.uk.e4mc.link
+2026-10-10 16:57:22.377 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 16:57:22.377 [INFO ] [e4mc] Stopping the e4mc relay client (panel shutdown)...
+2026-10-10 16:57:22.430 [WARN ] [e4mc] e4mc relay client exited (code 0).
+2026-10-10 16:57:22.430 [INFO ] [e4mc] e4mc state: online -> error (relay exited)
+2026-10-10 16:57:22.430 [INFO ] [e4mc] e4mc state: error -> stopped (minecraft stopped)
+2026-10-10 17:01:06.615 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:01:06.640 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:01:08.246 [INFO ] [e4mc] Connected, domain: tray-defuse.uk.e4mc.link
+2026-10-10 17:01:08.246 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:01:08.247 [INFO ] [e4mc] e4mc public address: tray-defuse.uk.e4mc.link
+2026-10-10 17:04:07.201 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:04:07.202 [INFO ] [e4mc] Stopping the e4mc relay client (panel shutdown)...
+2026-10-10 17:04:07.709 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 17:20:40.483 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:20:40.515 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:20:40.718 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:20:40.718 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:20:40.719 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:20:40.719 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:20:40.719 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:20:42.048 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:20:42.049 [INFO ] [e4mc] Shutting down the relay
+2026-10-10 17:20:42.064 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 17:20:42.599 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:20:42.599 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:20:42.791 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:20:42.792 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:20:42.792 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:20:42.793 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:20:42.793 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:20:43.100 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:20:43.101 [INFO ] [e4mc] Shutting down the relay
+2026-10-10 17:20:43.131 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 17:20:46.146 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:20:46.146 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:20:46.356 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:20:46.357 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:20:46.357 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:20:46.358 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:20:46.358 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:20:48.233 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:20:48.234 [INFO ] [e4mc] Shutting down the relay
+2026-10-10 17:20:48.264 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 17:20:49.523 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:20:49.523 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:20:49.724 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:20:49.725 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:20:49.725 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:20:49.725 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:20:49.725 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:27:47.545 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:27:47.546 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:27:47.746 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:27:47.747 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:27:47.747 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:27:47.748 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:27:47.748 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:27:49.215 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:27:49.217 [INFO ] [e4mc] Shutting down the relay
+2026-10-10 17:27:49.246 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 17:27:49.762 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:27:49.762 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:27:49.962 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:27:49.963 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:27:49.963 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:27:49.963 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:27:49.964 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:27:50.276 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:27:50.277 [INFO ] [e4mc] Shutting down the relay
+2026-10-10 17:27:50.308 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 17:27:53.305 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:27:53.305 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:27:53.498 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:27:53.499 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:27:53.499 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:27:53.500 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:27:53.500 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:27:55.329 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:27:55.330 [INFO ] [e4mc] Shutting down the relay
+2026-10-10 17:27:55.367 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 17:27:56.387 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:27:56.388 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:27:56.581 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:27:56.582 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:27:56.582 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:27:56.582 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:27:56.583 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:28:03.953 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:28:03.955 [INFO ] [e4mc] Shutting down the relay
+2026-10-10 17:28:40.399 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:28:40.399 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:28:40.611 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:28:40.612 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:28:40.613 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:28:40.613 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:28:40.613 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:28:42.051 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:28:42.052 [INFO ] [e4mc] Shutting down the relay
+2026-10-10 17:28:42.091 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 17:28:42.643 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:28:42.643 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:28:42.843 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:28:42.843 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:28:42.844 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:28:42.844 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:28:42.844 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:28:43.172 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:28:43.173 [INFO ] [e4mc] Shutting down the relay
+2026-10-10 17:28:43.203 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 17:28:46.213 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:28:46.213 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:28:46.408 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:28:46.409 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:28:46.409 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:28:46.409 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:28:46.409 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:28:48.044 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:28:48.045 [INFO ] [e4mc] Shutting down the relay
+2026-10-10 17:28:48.057 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 17:28:49.026 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 17:28:49.060 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 17:28:49.251 [INFO ] [e4mc] [main] Using relay relay-eu-1.e4mc.link:25565
+2026-10-10 17:28:49.251 [INFO ] [e4mc] e4mc broadcast: Welcome to the e4mc relay network
+2026-10-10 17:28:49.251 [INFO ] [e4mc] Connected, domain: stubworld.e4mc.link
+2026-10-10 17:28:49.252 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 17:28:49.252 [INFO ] [e4mc] e4mc public address: stubworld.e4mc.link
+2026-10-10 17:28:56.688 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 17:28:56.690 [INFO ] [e4mc] Shutting down the relay
+2026-10-10 20:18:46.871 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 20:18:46.871 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 20:18:48.508 [INFO ] [e4mc] Connected, domain: crusader-cosponsor.uk.e4mc.link
+2026-10-10 20:18:48.509 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 20:18:48.509 [INFO ] [e4mc] e4mc public address: crusader-cosponsor.uk.e4mc.link
+2026-10-10 20:20:48.747 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 20:20:48.748 [INFO ] [e4mc] Stopping the e4mc relay client (panel shutdown)...
+2026-10-10 20:20:48.820 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 21:15:19.265 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 21:15:19.265 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 21:15:20.931 [INFO ] [e4mc] Connected, domain: placate-oversized.uk.e4mc.link
+2026-10-10 21:15:20.932 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 21:15:20.933 [INFO ] [e4mc] e4mc public address: placate-oversized.uk.e4mc.link
+2026-10-10 21:20:34.884 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 21:20:34.953 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)
+2026-10-10 21:21:46.422 [INFO ] [e4mc] e4mc state: stopped -> connecting (server online (relay port 25565))
+2026-10-10 21:21:46.423 [INFO ] [e4mc] Starting the official e4mc relay client (e4mcbiat.jar) on port 25565...
+2026-10-10 21:21:48.108 [INFO ] [e4mc] Connected, domain: unsheathe-lantern.uk.e4mc.link
+2026-10-10 21:21:48.108 [INFO ] [e4mc] e4mc state: connecting -> online (relay assigned a domain)
+2026-10-10 21:21:48.109 [INFO ] [e4mc] e4mc public address: unsheathe-lantern.uk.e4mc.link
+2026-10-10 21:42:23.729 [INFO ] [e4mc] Stopping the e4mc relay client (minecraft stopped)...
+2026-10-10 21:42:23.813 [INFO ] [e4mc] e4mc state: online -> stopped (minecraft stopped)

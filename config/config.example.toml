@@ -1,0 +1,215 @@
+# ============================================================================
+#  Minecraft NeoForge Server Manager - central configuration
+#  Copy to config/config.toml (the panel creates it automatically on first run).
+#  Any value can be overridden by an environment variable / .env entry.
+# ============================================================================
+
+[server]
+# Name shown in the admin panel and on the public page (public page name can
+# be customised separately in config/public-content.json).
+name = "Minecraft Server"
+# Language of the CLI/banner output: en | fr
+locale = "en"
+
+[minecraft]
+# ---- Versions -------------------------------------------------------------
+# Both values are configurable and validated at startup.
+#   Minecraft 1.21.1  <->  NeoForge 21.1.x   (java 21)
+#   Minecraft 1.21.3  <->  NeoForge 21.3.x   (java 21)
+# The manager refuses a mismatched pair with an explicit error message.
+version = "1.21.1"
+neoforge_version = "21.1.253"
+
+# ---- Paths ----------------------------------------------------------------
+# Relative to the project root (absolute paths are accepted as well).
+server_dir = "minecraft/server"
+java_path = ""                # empty -> auto-detect
+
+# ---- Network --------------------------------------------------------------
+port = 25565
+# Bind address of the Minecraft listener. 0.0.0.0 = LAN reachable.
+host = "0.0.0.0"
+online_mode = true
+
+# ---- Memory / JVM --------------------------------------------------------
+min_ram_mb = 1024
+max_ram_mb = 4096
+# Extra JVM arguments appended to the managed user_jvm_args.txt
+jvm_args = []
+# Extra server arguments appended after the NeoForge arg-file
+server_args = []
+
+# ---- Behaviour -----------------------------------------------------------
+auto_start = false            # start Minecraft when the panel boots
+accept_eula = false           # must be true for the server to run (Mojang EULA)
+shutdown_timeout_s = 90       # how long "stop" may take before force kill
+start_timeout_s = 300         # how long a cold start may take before error
+stop_on_panel_exit = true     # send "stop" when the panel is closed
+
+[admin]
+# The admin panel is local by default. Do NOT change to 0.0.0.0 unless you
+# understand that this exposes administration to your network.
+host = "127.0.0.1"
+port = 8080
+# Require a password to open the panel.
+auth_enabled = true
+
+[public]
+# Separate read-only status page. This is the ONLY web service that should
+# ever be exposed to the internet (through Cloudflare).
+enabled = true
+host = "0.0.0.0"
+port = 8081
+
+
+# ---- Wake-up for players ---------------------------------------------------
+# The public page can offer ONE action to players: start the server. It is the
+# only write route on the public listener - the admin panel stays unreachable.
+# The code below is a secret: never commit it, never put it in the page, and
+# never write it to a log. An empty wake_code closes the door (doctor warns).
+allow_power_on = true          # false hides the button and refuses the route
+wake_code = ""                 # e.g. "graines-rouges" - what you tell your friends
+power_code_max_attempts = 5    # wrong codes per IP before a temporary block
+power_code_window_min = 10     # minutes that block lasts
+[e4mc]
+# e4mc gives the Minecraft server a public address (e.g. abcd.e4mc.link)
+# without port forwarding. It is a Minecraft transport - never a web proxy.
+enabled = true
+# Path of the official e4mcbiat.jar (e4mc relay client).
+jar_path = "minecraft/launcher/e4mcbiat.jar"
+# Download the official e4mcbiat release from GitHub when the jar is missing.
+auto_download = true
+# Port the relay tunnels to (defaults to minecraft.port when empty/0).
+port = 0
+# Manual fallback address, shown when automatic detection is impossible.
+manual_address = ""
+# Start/stop the relay together with the Minecraft server.
+autostart_with_server = true
+# Connect timeout in seconds.
+connect_timeout_s = 60
+
+# Optional free Playit tunnel for a stable Minecraft address without router changes.
+[playit]
+enabled = false
+agent_path = "minecraft/launcher/playit.exe"
+client_path = "C:/Program Files/playit_gg/bin/playit.exe"
+address = ""
+autostart_with_server = true
+
+[cloudflare]
+# Cloudflare exposes the PUBLIC STATUS PAGE only.
+# It is never used to proxy Minecraft traffic - players connect through e4mc.
+enabled = false
+domain = "example.com"
+# Hostname that will serve the public page (Tunnel CNAME or DNS record).
+public_hostname = ""
+# Optional REST API access - only used to *verify* configuration and to show
+# the zone/DNS state. The token stays on the backend and is never logged.
+zone_id = ""
+api_token = ""
+# Run a Cloudflare Tunnel locally to publish the public page.
+tunnel_enabled = false
+tunnel_name = "minecraft-panel"
+cloudflared_path = ""         # empty -> auto-detect
+# Bind address of the local public server the tunnel points at.
+tunnel_service = ""           # empty -> http://127.0.0.1:<public.port>
+
+[files]
+# Root of the file manager sandbox. Empty -> minecraft.server_dir.
+# The browser can never reach anything outside this directory.
+root = ""
+max_upload_mb = 512
+max_edit_kb = 2048
+
+[admin_mod]
+# Sources of the bundled server-side admin mod (see README section 18).
+# The panel can build it with the Gradle wrapper, started through the Java
+# runtime configured in [minecraft].java_path: no `gradle` command is ever run.
+source_dir = "mods-src/admin-tools"
+build_timeout_s = 1800
+build_xmx_mb = 1024
+# Copy the built jar into minecraft/server/mods once the build succeeds.
+auto_install = true
+
+[bridge]
+# Local bridge used by the in-game /panel command of the bundled admin mod.
+# The mod calls http://127.0.0.1:<admin.port>/api/admin/bridge/* with a random
+# bearer token that is accepted only from this machine. The token is stored in
+# config/data/bridge-token.json (0600) and copied into
+# minecraft/server/config/admintools.properties with:
+#   node api/cli.js bridge-token --write-mod-config
+enabled = true
+# false = the mod can read the panel state but cannot start/stop/restart the
+# Minecraft server through the bridge.
+allow_server_actions = true
+
+[discord]
+# Discord webhook notifications. Everything the panel already knows (server
+# start/stop, players, backups, e4mc, Cloudflare, performance) can be posted to
+# a channel of your Discord server.
+enabled = false
+# Channel settings -> Integrations -> Webhooks -> New Webhook -> Copy Webhook URL.
+# It looks like https://discord.com/api/webhooks/<id>/<token>. It is a SECRET:
+# masked in the API, never written to a log, never sent to the browser.
+webhook_url = ""
+# Optional cosmetics of the message.
+username = ""
+avatar_url = ""
+# Which events are posted. Remove what you do not want.
+# server_start, server_stop, server_crash, player_join, player_leave,
+# backup, restore, mod, e4mc, cloudflare, performance
+events = ["server_start", "server_stop", "server_crash", "player_join", "player_leave", "backup", "restore", "mod", "e4mc", "cloudflare", "performance"]
+# Optional Discord role mentioned on performance alerts (right click a role ->
+# "Copy Role ID", developer mode required). 0/empty = no mention.
+mention_role_id = ""
+
+[restart]
+# Scheduled restarts, in local wall clock time (24h).
+enabled = false
+times = ["04:00"]
+# Players are warned with the vanilla /say command this many minutes before.
+warn_minutes = [10, 5, 1]
+# Create a backup right before restarting (recommended).
+auto_backup = true
+
+[monitor]
+# MSPT = milliseconds per tick. 50 ms means 20 TPS (healthy), 100 ms means the
+# server is at 10 TPS. The panel reads the real tick times the server prints.
+mspt_alert_ms = 60
+# How long the server must stay above the threshold before an alert is raised.
+mspt_sustain_min = 5
+# Minimum time between two alerts, so a bad night does not spam the channel.
+alert_cooldown_min = 30
+
+[backups]
+dir = "backups"
+# Files / folders included in a backup (relative to minecraft.server_dir).
+include = ["world", "config", "server.properties", "ops.json", "whitelist.json", "banned-players.json", "banned-ips.json"]
+include_mods = false
+# 0 = keep every backup.
+keep_last = 0
+# Automatically create a safety backup before a restore. Keep this on.
+safety_backup_before_restore = true
+# Automatic periodic backups (hours). 0 = disabled.
+auto_backup_interval_h = 0
+
+[logging]
+dir = "logs"
+level = "info"                # debug | info | warn | error
+max_file_mb = 8
+max_files = 5
+
+[security]
+session_ttl_h = 12
+session_idle_min = 120
+# Login attempts allowed per IP inside the window.
+login_max_attempts = 5
+login_window_min = 15
+# auto | always | never - "always" requires HTTPS for the admin panel.
+cookie_secure = "auto"
+# Enable only when a trusted reverse proxy overwrites X-Forwarded-For and X-Forwarded-Proto.
+trust_proxy = false
+# Allow embedding the admin panel in an iframe (same-origin only by default).
+allow_iframe = false
+# Length of the generated admin password on first run.
+generated_password_length = 20

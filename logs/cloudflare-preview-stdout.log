@@ -1,0 +1,21 @@
+[2m2026-10-10 20:29:01.344[0m [36mINFO [0m [2m[application][0m [restart] Scheduled restarts armed (disabled in configuration)
+[2m2026-10-10 20:29:01.365[0m [36mINFO [0m [2m[application][0m [monitor] MSPT monitor armed (alert above 60 ms per tick for 5 minute(s)).
+[2m2026-10-10 20:29:01.379[0m [36mINFO [0m [2m[application][0m [admin] Admin panel listening on http://127.0.0.1:8080
+[2m2026-10-10 20:29:01.391[0m [36mINFO [0m [2m[application][0m [public-web] Public status page listening on http://127.0.0.1:8081
+==================================================
+ Minecraft Server Manager
+ Minecraft 1.21.1 | NeoForge 21.1.253 | Java 21+
+==================================================
+Admin panel    : http://127.0.0.1:8080
+Public page    : http://127.0.0.1:8081
+Guide          : START.md  (first run, the admin password, the address to share)
+Cloudflare     : disabled
+Minecraft      : STOPPED (port 25565)
+e4mc           : STOPPED
+Server files   : ready
+Restart plan   : disabled
+Discord        : disabled
+MSPT monitor   : ok (alert above 60 ms per tick)
+Logs           : logs
+==================================================
+ note: The public page is bound to localhost only: Cloudflare Tunnel still works, but LAN devices cannot open it.

@@ -1,0 +1,12 @@
+{
+  "players": {
+    "guess28": {
+      "name": "guess28",
+      "uuid": null,
+      "firstSeen": "2026-10-10T19:16:52.097Z",
+      "lastSeen": "2026-10-10T19:22:33.052Z",
+      "joins": 2,
+      "lastLeave": "2026-10-10T19:38:18.571Z"
+    }
+  }
+}
